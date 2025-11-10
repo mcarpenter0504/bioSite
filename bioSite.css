@@ -7,7 +7,8 @@ body {
 }
 
 #container {
-  margin: 2rem;
+    margin: 2rem;
+    padding-bottom: 2rem;
 }
 
 #landing-container {
@@ -108,22 +109,31 @@ body {
     max-width: 1200px;
     height: 100%;
     color: #ddd;
-    font-size: larger;
+    font-size: 30px;
     text-align: center;
     align-self: center;
     border-radius: 10px;
     border: 2px solid #50EAD7;
     font-weight: bold;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
 }
 
 #nav {
+    width: 100%;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: .5rem 0;
+    border-radius: 10px;
+    margin-bottom: 2rem;
     margin-top: 2rem;
-    margin-bottom: 3rem;
 }
 
 .nav-btn {
     font-size: larger;
-    padding: 15px 50px;
+    padding: 15px 90px;
     border-radius: 10px;
     cursor: pointer;
     color: #1E1E1F;
@@ -143,9 +153,17 @@ body {
 }
 
 footer {
-  text-align: center;
-  padding: 1rem 0;
-  border-top: 1px solid #333;
-  color: #aaa;
-  font-size: 0.9rem;
+    text-align: center;
+    border-top: 1px solid #333;
+    color: #aaa;
+    font-size: 0.9rem;
+    background-color: #1E1E1F;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    z-index: 1000;  
 }
